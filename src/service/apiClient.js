@@ -1,5 +1,8 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://thronesapi.com/api/v2/');
-
-export default apiClient;
+export default axios.create({
+  baseURL: 'https://thronesapi.com/api/v2/',
+  headers: {
+    'Content-type': 'application/json',
+  },
+});

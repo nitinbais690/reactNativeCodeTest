@@ -1,7 +1,7 @@
-import {en} from './en';
-
 const locales = {
-  en,
+  home: 'Home',
+  name: 'Name',
+  title: 'Title',
 };
 
-export default locales[en];
+export default locales;

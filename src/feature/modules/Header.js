@@ -3,9 +3,9 @@ import Colors from '../../theme/colors';
 import SafeAreaViewContainer from '../atoms/SafeAreaViewContainer';
 import StyleText from '../atoms/Text';
 
-function Heading(props) {
+function Header(props) {
   return (
-    <SafeAreaViewContainer height={80} backgroundColor={Colors.secondary}>
+    <SafeAreaViewContainer height={40} backgroundColor={Colors.primary}>
       <StyleText fontSize={15} color={Colors.white} fontWeight={'bold'}>
         {props.title}
       </StyleText>
@@ -13,4 +13,4 @@ function Heading(props) {
   );
 }
 
-export default Heading;
+export default Header;
