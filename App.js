@@ -5,15 +5,11 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
 import {Text, View, SafeAreaView} from 'react-native';
+import CharacterList from './src/feature/templates/CharacterList';
 
-const App: () => Node = () => {
-  return (
-    <SafeAreaView>
-      <Text>React Native Code Test</Text>
-    </SafeAreaView>
-  );
-};
+function App() {
+  return <CharacterList />;
+}
 
 export default App;
